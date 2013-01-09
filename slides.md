@@ -184,6 +184,12 @@ For a ~300 acre field largest delta is 13 thousands of an acre
 * [http://blog.daniel-azuma.com/](http://blog.daniel-azuma.com/)
 * Writer and Maintainer of RGeo and PostGIS
 
+#### RailsConf 2012 Geospatial Anlysis in Rails
+
+* [My Notes](https://github.com/calebwoods/railsconf2012/blob/master/2012-04-23-03-geo-spatial.md)
+* [Slides](http://daniel-azuma.com/railsconf2012)
+* [Video](http://www.youtube.com/watch?v=QI0e2jkUbkk&list=PLF16D2F3A8469021E&index=49)
+
 !SLIDE
 
 # Presentation Tools
@@ -198,4 +204,10 @@ For a ~300 acre field largest delta is 13 thousands of an acre
 #### Maps: [Gmaps.js](http://hpneo.github.com/gmaps/)
 
 * Sane interface to Google Maps JS API
+
+!SLIDE
+
+#Get the Slides
+
+## [http://geo-calculation.calebwoods.com](http://geo-calculation.calebwoods.com)
 
