@@ -2,11 +2,12 @@
 
 !SLIDE
 
-# Geo Calculations in Ruby
+# Geo Calculations
+### With Ruby
 
 ## By Caleb Woods
 
-!SLIDE
+!SLIDE left
 
 # Things to Consider
 
@@ -14,7 +15,7 @@
 * Projections
 * Data Transport and Storage
 
-!SLIDE
+!SLIDE left
 
 # Open Source Libraries
 
@@ -28,7 +29,7 @@
 * Cartographic Projection
 * `brew install proj`
 
-!SLIDE
+!SLIDE left
 
 # Ruby Gems
 
@@ -44,7 +45,7 @@
 * Uses official [GeoJSON Spec](http://www.geojson.org/geojson-spec.html)
 * `gem install rgeo-geojson`
 
-!SLIDE
+!SLIDE left
 
 # Other Libraries
 
@@ -53,7 +54,7 @@
 * Adds support for geographic objects in PostgreSQL
 * Geo Spatial queries
 
-!SLIDE
+!SLIDE left
 
 # Projections
 
@@ -61,7 +62,7 @@
 * 2D plane for Geometry calculations
 * Projection in the translation
 
-!SLIDE
+!SLIDE left
 
 # Common Projections
 
@@ -120,7 +121,7 @@ A Polygon can span a UTM zone border
 
 For a ~300 acre field largest delta is 13 thousands of an acre
 
-!SLIDE
+!SLIDE left
 
 # Common Formats
 
@@ -175,7 +176,7 @@ For a ~300 acre field largest delta is 13 thousands of an acre
 
 # Questions?
 
-!SLIDE
+!SLIDE left
 
 # Further Reading
 
@@ -190,7 +191,7 @@ For a ~300 acre field largest delta is 13 thousands of an acre
 * [Slides](http://daniel-azuma.com/railsconf2012)
 * [Video](http://www.youtube.com/watch?v=QI0e2jkUbkk&list=PLF16D2F3A8469021E&index=49)
 
-!SLIDE
+!SLIDE left
 
 # Presentation Tools
 
