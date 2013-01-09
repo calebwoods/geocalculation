@@ -210,5 +210,5 @@ For a ~300 acre field largest delta is 13 thousands of an acre
 
 #Get the Slides
 
-## [http://geo-calculation.calebwoods.com](http://geo-calculation.calebwoods.com)
+[http://calebwoods.github.com/geocalculation](http://calebwoods.github.com/geocalculation)
 
