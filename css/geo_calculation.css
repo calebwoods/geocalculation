@@ -10,3 +10,8 @@
 /*.deck-status {*/
     /*display: none;*/
 /*}*/
+
+.deck-container small {
+  font-color: grey;
+  font-size: 75%;
+}

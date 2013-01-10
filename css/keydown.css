@@ -104,6 +104,12 @@ body {
       -moz-box-pack: start;
       -ms-box-pack: start;
       box-pack: start; }
+      .keydown.deck-container .slide.full-background.mercator_projection {
+        background-image: url(../images/mercator_projection.jpg); }
+      .keydown.deck-container .slide.full-background.albers_projection {
+        background-image: url(../images/albers_projection.jpg); }
+      .keydown.deck-container .slide.full-background.utm_zones_world {
+        background-image: url(../images/utm_zones_world.gif); }
       .keydown.deck-container .slide.full-background h1 {
         display: inline;
         position: absolute;

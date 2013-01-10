@@ -17,7 +17,7 @@
 
 !SLIDE left
 
-# Open Source Libraries
+# Libraries
 
 #### [GEOS](http://trac.osgeo.org/geos/)
 
@@ -37,13 +37,11 @@
 
 * Geo spatial data library
 * Relies on GEOS and Proj.4
-* `gem install rgeo`
 
 #### [RGeo GeoJSON](https://github.com/dazuma/rgeo-geojson)
 
 * Parse and Create GeoJSON objects
 * Uses official [GeoJSON Spec](http://www.geojson.org/geojson-spec.html)
-* `gem install rgeo-geojson`
 
 !SLIDE left
 
@@ -62,24 +60,55 @@
 * 2D plane for Geometry calculations
 * Projection in the translation
 
+Projections in Proj.4 can be downloaded from [SpatialReference.org](http://spatialreference.org/)
+
 !SLIDE left
 
-# Common Projections
+<h1 style="font-size: 4rem">Common Projections</h1>
 
-#### [Mercator](https://en.wikipedia.org/wiki/Mercator_projection)
+* [Mercator](https://en.wikipedia.org/wiki/Mercator_projection)
+* [Albers](https://en.wikipedia.org/wiki/Albers_projection)
+* [UTM](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)
 
-* Used by Google Map and Apple Map
+!SLIDE left
+
+# Mercator
+
+* Used by Google Maps and Apple Maps
 * Maintains shape, but not distances and areas
 
-#### [Albers](https://en.wikipedia.org/wiki/Albers_projection)
+!SLIDE
+
+# Mercator Projection
+
+}}} images/mercator_projection.jpg
+
+!SLIDE left
+
+# Albers
 
 * Equal Area Projection
 * Maintains distances and areas, not shape
+* Used a lot in aviation
 
-#### [UTM](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)
+!SLIDE
+
+# Albers Projection
+
+}}} images/albers_projection.jpg
+
+!SLIDE left
+
+# UTM
 
 * Similar to Mercator
 * Divides earth into 60 "zones"
+
+!SLIDE
+
+# UTM Projection
+
+}}} images/utm_zones_world.gif
 
 !SLIDE
 
@@ -117,9 +146,7 @@ A Polygon can span a UTM zone border
 # Split on Zone line and combined
 304.6407631743717 acres
 ```
-
-
-For a ~300 acre field largest delta is 13 thousands of an acre
+<small>For a ~300 acre field largest delta is 13 thousands of an acre</small>
 
 !SLIDE left
 
@@ -170,7 +197,7 @@ For a ~300 acre field largest delta is 13 thousands of an acre
 
 # GeoJSON Example
 
-<div id="map" style="width: 500px; height: 500px"></div>
+<div id="map" style="width: 600px; height: 400px"></div>
 
 !SLIDE
 
@@ -180,10 +207,9 @@ For a ~300 acre field largest delta is 13 thousands of an acre
 
 # Further Reading
 
-#### Daniel Azuma's Blog
+#### Daniel Azuma's Blog (RGeo Maintainer)
 
 * [http://blog.daniel-azuma.com/](http://blog.daniel-azuma.com/)
-* Writer and Maintainer of RGeo and PostGIS
 
 #### RailsConf 2012 Geospatial Anlysis in Rails
 
